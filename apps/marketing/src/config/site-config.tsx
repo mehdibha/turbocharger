@@ -7,7 +7,7 @@ import { APP_URL } from "./constants";
 
 export const siteConfig = {
   global: {
-    url: "https://turbocharger.mehdibha.com",
+    url: "https://turbocharger.cc",
     name: "Turbocharger",
     logo: "/images/logo.png",
     title: "Turbocharger | A monorepo starter to speed up your development",
@@ -165,36 +165,32 @@ export const siteConfig = {
         description: "Good for getting started.",
         href: APP_URL,
         features: [
-          "Free hosting on 'notionfol.io'",
-          "Choose any template",
-          "Customer support",
+          "Free hosting on 'turbocharger.cc'",
           "Optimized SEO",
-          "Has 'Built with Notionfol.io' branding",
+          "Has 'Built with Turbocharger' branding",
         ],
       },
       {
         featured: true,
-        name: "Personal site",
+        name: "Pro",
         price: { monthly: "$19", yearly: "$15" },
-        billing: "per site / month",
+        billing: "per month",
         description: "Perfect for small / medium sized businesses.",
         href: APP_URL,
         features: [
           "Everything in Free.",
-          "Connect to your custom domain",
           "Basic analytics",
-          "Remove 'Built with Notionfol.io' branding",
+          "Remove 'Built with Turbocharger' branding",
         ],
       },
       {
-        name: "Pro site",
+        name: "Entreprise",
         price: { monthly: "$39", yearly: "$31" },
-        billing: "per site / month",
+        billing: "per month",
         description: "For even the biggest enterprise companies.",
         href: APP_URL,
         features: [
           "Everything in Personal site.",
-          "Manual publishing controls",
           "Advanced analytics",
           "Priority support",
         ],
