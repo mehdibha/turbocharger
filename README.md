@@ -49,7 +49,20 @@
 
 ### Features
 
-- 
+- Monorepo with Turborepo
+- Responsive marketing site
+- SEO friendly
+- blog using MDX
+- Server and Client Components
+- Authentication using NextAuth.js
+- UI components built using shadcn-ui
+- Dark and light mode
+- ORM using Prisma
+- Subscriptions using Stripe
+- Responsive dashboard
+- Validations using Zod
+- Written in TypeScript
+
   
 
 ### Built with
@@ -72,6 +85,11 @@ If you want to clone the project and use turbocharger as your starter project
 
 - [x] Init project
 - [x] Linting tools
+- [x] Home page
+- [x] Pricing page
+- [ ] Blog
+- [ ] App layout
+- [ ] Subscriptions using stripe
 
 ## Sites using turbocharger
 
