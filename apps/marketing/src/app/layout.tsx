@@ -60,7 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Analytics />
           <div className="relative">
             <Banner />
-            <Suspense fallback={null}>
+            <Suspense fallback={<div className="h-[64px]" />}>
               <Header />
             </Suspense>
             <div className="min-h-[calc(100vh-64px)] pb-36">{children}</div>
