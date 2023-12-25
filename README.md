@@ -43,25 +43,13 @@
 
 
 
-<details open><summary>Screenshot</summary>
-<img src="https://demo.notionfol.io/images/screenshots/screenshot01.png" />
+<details open><summary>Screenshots</summary>
+<img src="https://turbocharger.cc/images/screenshots/screenshot01.png" />
 </details>
 
 ### Features
 
-- 📒 Writing posts using Notion as CMS
-- 👀 Pretty URLs & SEO friendly
-- 🤖 Entirely customisable through one config file
-- 🚀 Fast page views
-- 💼 Sleek Portfolio -> Showcase your work elegantly and professionally.
-- 🌓 Dark and light mode
-- 📱 Responsive design
-- ♻️ Incremental static regeneration (Every x minutes re-update website content so no need to redeploy)
-- 📰 RSS feed
-- 🚀 Deploy on Vercel in minutes
-- 🔍 Search posts instantly
-- 📈 Analytics with vercel analytics
-- Dispaly your courses
+- 
   
 
 ### Built with
@@ -73,20 +61,19 @@
 
 ## Getting Started
 
-If you want to clone the project and make you personal notionfolio
+If you want to clone the project and use turbocharger as your starter project
 
 ### Configuratuion
 - Star the repo
 - Fork this project
 - config env variable (see .env.exemple)
-- 
 
 ## Roadmap
 
 - [x] Init project
 - [x] Linting tools
 
-## Sites using notionfol.io
+## Sites using turbocharger
 
 We will be happy to mention you here, just make a pull request and we will add you
 
