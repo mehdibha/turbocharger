@@ -1,0 +1,28 @@
+{
+  "extends": "@turbocharger/ts-config/nextjs.json",
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"],
+      "~/*": ["./*"],
+      // ALL TEMPLATES HERE
+      "@folio/*": ["./src/app/[domain]/folio/(template)/*"],
+      "@quantum/*": ["./src/app/[domain]/quantum/(template)/*"],
+      "@chroma/*": ["./src/app/[domain]/chroma/(template)/*"],
+      "@clarity/*": ["./src/app/[domain]/clarity/(template)/*"],
+      "@doction/*": ["./src/app/[domain]/doction/(template)/*"],
+      "@horizon/*": ["./src/app/[domain]/horizon/(template)/*"],
+      "@minimalist/*": ["./src/app/[domain]/minimalist/(template)/*"],
+      "@nova/*": ["./src/app/[domain]/nova/(template)/*"],
+      "@pulse/*": ["./src/app/[domain]/pulse/(template)/*"]
+    },
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
