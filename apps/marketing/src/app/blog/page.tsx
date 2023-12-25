@@ -8,7 +8,6 @@ export const metadata: Metadata = {
 };
 
 export default async function BlogPage() {
-
   return (
     <div className="container max-w-7xl pt-12">
       <h1 className="font-display max-w-2xl text-3xl font-semibold sm:text-4xl md:text-5xl">

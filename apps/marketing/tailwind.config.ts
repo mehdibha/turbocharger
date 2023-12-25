@@ -1,6 +1,6 @@
 // tailwind config is required for editor support
-import sharedConfig from "@turbocharger/tailwind-config/tailwind.config.ts";
 import type { Config } from "tailwindcss";
+import sharedConfig from "@turbocharger/tailwind-config/tailwind.config.ts";
 
 const config: Pick<Config, "presets"> = {
   presets: [

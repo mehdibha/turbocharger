@@ -1,5 +1,5 @@
-import { prisma } from "@turbocharger/database";
 import Stripe from "stripe";
+import { prisma } from "@turbocharger/database";
 import { stripe } from "@/lib/stripe";
 import { getUser } from "@/modules/auth/services";
 
@@ -31,7 +31,7 @@ export const getUserSubscriptions = async () => {
   //   },
   // }));
   // return subscriptions;
-  return []
+  return [];
 };
 
 export const getUserInvoices = async () => {

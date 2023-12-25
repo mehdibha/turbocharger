@@ -27,7 +27,7 @@ export const PricingPlan = (props: PlanProps) => {
   return (
     <section
       className={cn(
-        "bg-card relative flex min-h-[530px] flex-col border border-gray-400 px-6 py-16 shadow-2xl dark:border-gray-800 sm:px-8",
+        "bg-card relative flex min-h-[530px] flex-col border border-gray-400 px-6 py-16 shadow-2xl sm:px-8 dark:border-gray-800",
         featured && "ring-ring/80 z-10 border-none ring-4",
         className
       )}

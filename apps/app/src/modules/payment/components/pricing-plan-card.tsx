@@ -52,7 +52,7 @@ export const PricingPlan = (props: PlanProps) => {
   return (
     <section
       className={cn(
-        "bg-card relative flex flex-col border border-gray-400 p-6 shadow-2xl dark:border-gray-800 sm:px-8",
+        "bg-card relative flex flex-col border border-gray-400 p-6 shadow-2xl sm:px-8 dark:border-gray-800",
         featured && "ring-ring/80 z-10 border-none ring-4",
         disabled && "text-muted-foreground",
         className

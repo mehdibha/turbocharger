@@ -1,7 +1,7 @@
 import { Metadata, Viewport } from "next";
+import { Analytics } from "@vercel/analytics/react";
 import "@turbocharger/ui/styles/shared-globals.css";
 import { cn } from "@turbocharger/utils";
-import { Analytics } from "@vercel/analytics/react";
 import { display, inter } from "@/styles/fonts";
 import { siteConfig } from "@/config/site";
 import { Providers } from "./providers";

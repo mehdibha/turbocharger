@@ -1,8 +1,8 @@
 import * as React from "react";
 import * as ToastPrimitives from "@radix-ui/react-toast";
-import { cn } from "@turbocharger/utils";
 import { type VariantProps, cva } from "class-variance-authority";
 import { X } from "lucide-react";
+import { cn } from "@turbocharger/utils";
 
 const ToastProvider = ToastPrimitives.Provider;
 

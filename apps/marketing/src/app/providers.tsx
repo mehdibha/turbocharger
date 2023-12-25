@@ -1,7 +1,7 @@
 "use client";
 
-import { Toaster } from "@turbocharger/ui";
 import { ThemeProvider } from "next-themes";
+import { Toaster } from "@turbocharger/ui";
 
 export function Providers({ children }: { children: React.ReactNode }) {
   return (

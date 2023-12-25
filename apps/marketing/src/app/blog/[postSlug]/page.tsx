@@ -4,14 +4,14 @@ import { notFound } from "next/navigation";
 
 async function getPost(postSlug: string) {
   return {
-    post: null
-  }
+    post: null,
+  };
 }
 
 export async function generateStaticParams() {
   // TODO: fix this
 
-  return []
+  return [];
 }
 
 interface PostPageProps {
@@ -54,9 +54,7 @@ const PostPage = async (props: PostPageProps) => {
           {post.tags && post.tags.map((tag) => <Badge key={tag}>{tag}</Badge>)}
         </div>
       </div> */}
-      <div className="mt-12">
-        {/* TODO: post here */}
-      </div>
+      <div className="mt-12">{/* TODO: post here */}</div>
     </div>
   );
 };

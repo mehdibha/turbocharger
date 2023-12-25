@@ -1,9 +1,9 @@
 import React, { Suspense } from "react";
 import { Metadata, Viewport } from "next";
 import Image from "next/image";
+import { Analytics } from "@vercel/analytics/react";
 import "@turbocharger/ui/styles/shared-globals.css";
 import { cn } from "@turbocharger/utils";
-import { Analytics } from "@vercel/analytics/react";
 import { Banner } from "@/components/banner";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";

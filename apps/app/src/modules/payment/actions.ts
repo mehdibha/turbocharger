@@ -9,25 +9,20 @@ import { createOrRetrieveCustomer } from "./services";
 export async function createCheckoutSession(priceId: string, siteId: string) {
   // try {
   //   const session = await getSession();
-
   //   if (!session?.user || !session?.user.email) {
   //     throw new Error("Unauthorized");
   //   }
-
   //   const customerId = await createOrRetrieveCustomer({
   //     userId: session.user.id,
   //     email: session.user.email,
   //   });
-
   //   if (!customerId) throw Error("Could not get or create customer");
-
   //   const userSubscription = await prisma.subscription.findUnique({
   //     where: {
   //       userId: session.user.id,
   //       siteId,
   //     },
   //   });
-
   //   if (userSubscription) {
   //     const stripeSession = await stripe.billingPortal.sessions.create({
   //       customer: customerId,
@@ -38,7 +33,6 @@ export async function createCheckoutSession(priceId: string, siteId: string) {
   //       redirectUrl: stripeSession.url as string,
   //     };
   //   }
-
   //   const stripeSession = await stripe.checkout.sessions.create({
   //     success_url: absoluteUrl(`/site/${siteId}`),
   //     cancel_url: absoluteUrl(`/site/${siteId}`),
@@ -57,7 +51,6 @@ export async function createCheckoutSession(priceId: string, siteId: string) {
   //       siteId,
   //     },
   //   });
-
   //   return {
   //     success: true,
   //     redirectUrl: stripeSession.url as string,

@@ -1,8 +1,8 @@
 import { PrismaAdapter } from "@next-auth/prisma-adapter";
-import { prisma } from "@turbocharger/database";
 import { type NextAuthOptions } from "next-auth";
 import GitHubProvider from "next-auth/providers/github";
 import GoogleProvider from "next-auth/providers/google";
+import { prisma } from "@turbocharger/database";
 
 const VERCEL_DEPLOYMENT = !!process.env.VERCEL_URL;
 
@@ -30,7 +30,7 @@ export const authOptions: NextAuthOptions = {
   pages: {
     signIn: `/login`,
     verifyRequest: `/login`,
-    error: "/login"
+    error: "/login",
   },
   adapter: PrismaAdapter(prisma),
   session: { strategy: "jwt" },

@@ -61,8 +61,6 @@
 - Validations using Zod
 - Written in TypeScript
 
-  
-
 ### Built with
 
 - Next.js (v14 with app dir) and React
@@ -75,6 +73,7 @@
 If you want to clone the project and use turbocharger as your starter project
 
 ### Configuratuion
+
 - Star the repo
 - Fork this project
 - config env variable (see .env.exemple)
