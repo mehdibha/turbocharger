@@ -87,6 +87,7 @@ If you want to clone the project and use turbocharger as your starter project
 - [ ] Blog
 - [ ] App layout
 - [ ] Subscriptions using stripe
+- [ ] Add Vercel deploy button
 
 ## Sites using turbocharger
 
