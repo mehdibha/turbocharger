@@ -41,8 +41,6 @@
 
 ## About The Project
 
-
-
 <details open><summary>Screenshots</summary>
 <img src="https://turbocharger.cc/images/screenshots/screenshot01.png" />
 </details>
