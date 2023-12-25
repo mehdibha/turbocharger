@@ -80,7 +80,7 @@ export const siteConfig = {
           title: "Next.js",
           description:
             "Explore the latest Next.js 14 features: App dir, Routing, Layouts, Loading UI, API routes, Server components, Server actions, and more.",
-          // image: "/images/features/feature03.png",
+          image: "/images/features/nextjs.png",
           cta: {
             label: "See more",
             href: "https://github.com/mehdibha/turbocharger",
@@ -90,7 +90,7 @@ export const siteConfig = {
           title: "Stripe",
           description:
             "Integration with Stripe Checkout and the Stripe customer portal, Automatic syncing of pricing plans and subscription statuses via Stripe webhooks",
-          // image: "/images/features/feature02.png",
+          image: "/images/features/stripe.png",
           cta: {
             label: "See more",
             href: "https://github.com/mehdibha/turbocharger",
@@ -100,7 +100,7 @@ export const siteConfig = {
           title: "SEO",
           description:
             "SEO friendly, support for meta tags, sitemap.xml, robots.txt, canonical URLs, and automatic JSON-LD schema generation, and more.",
-          // image: "/images/features/feature01.png",
+          image: "/images/features/seo.png",
           cta: {
             label: "See more",
             href: "https://github.com/mehdibha/turbocharger",
