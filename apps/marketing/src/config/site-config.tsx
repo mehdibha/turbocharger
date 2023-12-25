@@ -21,7 +21,7 @@ export const siteConfig = {
       },
     ],
     creator: "mehdibha",
-    thumbnail: "/images/thumbnail.png",
+    thumbnail: "/images/og-image.png",
     twitter: {
       creator: "@mehdibha_",
     },
