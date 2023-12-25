@@ -13,7 +13,7 @@ export const siteConfig = {
     title: "Turbocharger | A monorepo starter to speed up your development",
     description:
       "Turbocharge your project with this monorepo starter. It comes with Next.js, Tailwind CSS, Shadcn-ui, Server components, and more.",
-    keywords: ["Next.js", "React","Tailwind CSS","Shadcn-ui","Server components"],
+    keywords: ["Next.js", "React", "Tailwind CSS", "Shadcn-ui", "Server components"],
     authors: [
       {
         name: "mehdibha",
@@ -60,8 +60,8 @@ export const siteConfig = {
       subheadline:
         "Turbocharge your project with this monorepo starter. It comes with Next.js, Tailwind CSS, Shadcn-ui, Server components, and more.",
       cta: [
-        { label: "Go To App", href: APP_URL },
-        { label: "Github Repo", href: "https://github.com/mehdibha/turbocharger" },
+        { label: "Go to App", href: APP_URL },
+        { label: "GitHub Repo", href: "https://github.com/mehdibha/turbocharger" },
       ],
       demoVideo: {
         src: null,
@@ -110,8 +110,7 @@ export const siteConfig = {
     },
     testimonial: {
       headline: "Our community **loves** us",
-      subheadline:
-        "",
+      subheadline: "",
       testimonials: [
         {
           content:
@@ -148,9 +147,9 @@ export const siteConfig = {
     },
     cta: {
       headline: "proudly **open source**",
-      subheadline: "Turbocharger is open source and available on github",
+      subheadline: "Turbocharger is open source and available on GitHub",
       cta: {
-        label: "Github Repo",
+        label: "GitHub Repo",
         href: "https://github.com/mehdibha/turbocharger",
       },
     },
@@ -242,7 +241,6 @@ export const siteConfig = {
   },
   blogPage: {
     headline: "Blog",
-    subheadline:
-      "Learn more about Turbocharger and write your posts with MDX.",
+    subheadline: "Learn more about Turbocharger and write your posts with MDX.",
   },
 };

@@ -3,7 +3,7 @@
 <br/>
 <div align="center">
   <a href="https://github.com/mehdibha/turbocharger">
-    <img src="https://turbocharger.cc/images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://turbocharger.cc/images/logo-background.png" alt="Logo" width="80" height="80">
   </a>
   <h1 align="center">Turbocharger</h1>
   <p align="center">
