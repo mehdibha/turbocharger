@@ -61,7 +61,7 @@ export const siteConfig = {
         "Turbocharge your project with this monorepo starter. It comes with Next.js, Tailwind CSS, Shadcn-ui, Server components, and more.",
       cta: [
         { label: "Go to App", href: APP_URL },
-        { label: "GitHub Repo", href: "https://github.com/mehdibha/turbocharger" },
+        { label: "Star on GitHub", href: "https://github.com/mehdibha/turbocharger" },
       ],
       demoVideo: {
         src: null,
@@ -146,7 +146,7 @@ export const siteConfig = {
       ],
     },
     cta: {
-      headline: "proudly **open source**",
+      headline: "Proudly **open source**",
       subheadline: "Turbocharger is open source and available on GitHub",
       cta: {
         label: "GitHub Repo",
@@ -199,40 +199,27 @@ export const siteConfig = {
     faq: [
       {
         question: "How does turbocharger works?",
-        answer: <p></p>,
-      },
-      {
-        question: "What is Notion?",
-        answer: <p></p>,
-      },
-      {
-        question: "Can I create a website without code?",
-        answer: <p></p>,
-      },
-      {
-        question: "How many sites can I have?",
-        answer: <p></p>,
+        answer:
+          "Turbocharger is a monorepo starter that comes with Next.js, Tailwind CSS, Shadcn-ui, Server components, and more. It's a great way to start your next project.",
       },
       {
         question: "How do I create a website with turbocharger?",
-        answer: <p></p>,
+        answer:
+          "You can create a website with turbocharger by following the documentation.",
       },
       {
         question: "How much does turbocharger cost?",
-        answer: <p></p>,
+        answer: "It's free to use turbocharger",
       },
       {
         question: "Can I use turbocharger for free?",
-        answer: <p></p>,
+        answer: "Yes, you can use turbocharger for free.",
       },
     ],
     cta: {
-      headline: "Get started for **free**",
-      subheadline: "No credit card required. Cancel anytime.",
-      cta: {
-        label: "Try Notionfol.io free",
-        href: APP_URL,
-      },
+      headline: "Proudly **open-source**",
+      subheadline: "Turbocharger is open source and available on GitHub",
+      cta: { label: "Star on GitHub", href: "https://github.com/mehdibha/turbocharger" },
     },
   },
   blogPage: {
