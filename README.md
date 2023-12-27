@@ -84,7 +84,7 @@ If you want to clone the project and use turbocharger as your starter project
 - [x] Linting tools
 - [x] Home page
 - [x] Pricing page
-- [ ] Blog
+- [x] Blog
 - [ ] App layout
 - [ ] Subscriptions using stripe
 - [ ] Add Vercel deploy button
