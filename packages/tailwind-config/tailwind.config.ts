@@ -1,5 +1,6 @@
-import typography from "@tailwindcss/typography";
+import typographyPlugin from "@tailwindcss/typography";
 import type { Config } from "tailwindcss";
+import animatePlugin from "tailwindcss-animate";
 import defaultTheme from "tailwindcss/defaultTheme";
 
 const config: Config = {
@@ -20,14 +21,6 @@ const config: Config = {
         "2xl": "1400px",
       },
     },
-    // typography: {
-    //   quoteless: {
-    //     css: {
-    //       "blockquote p:first-of-type::before": { content: "none" },
-    //       "blockquote p:first-of-type::after": { content: "none" },
-    //     },
-    //   },
-    // },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -92,6 +85,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [typography],
+  plugins: [typographyPlugin, animatePlugin],
 };
 export default config;
