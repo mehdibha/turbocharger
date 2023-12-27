@@ -34,7 +34,7 @@ export function Sidebar() {
           <MobileSideBar />
         </div>
       </header>
-      <nav className="bg-card fixed top-0 z-30 hidden h-full w-full flex-col border-r shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] xl:flex xl:max-h-screen xl:min-h-screen xl:w-52">
+      <nav className="bg-card fixed top-0 z-30 hidden h-full w-full flex-col border-r shadow-[0_35px_30px_-15px_rgba(0,0,0,0.3)] xl:flex xl:max-h-screen xl:min-h-screen xl:w-52">
         <SidebarNav />
       </nav>
     </>
