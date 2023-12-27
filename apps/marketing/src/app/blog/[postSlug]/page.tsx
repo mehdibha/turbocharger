@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import { serialize } from "next-mdx-remote/serialize";
 import { Badge } from "@turbocharger/ui";
 import { formatDate } from "@turbocharger/utils";
 import { MDX } from "@/components/mdx";
@@ -47,7 +46,9 @@ export default async function PostPage(props: PostPageProps) {
             post.metadata.keywords.map((tag) => <Badge key={tag}>{tag}</Badge>)}
         </div>
       </div>
-      <article className="mt-8">{post.content && <MDX source={post.content} />}</article>
+      <article className="prose prose-quoteless prose-neutral dark:prose-invert mt-20 max-w-full">
+        {post.content && <MDX source={post.content} />}
+      </article>
     </div>
   );
 }

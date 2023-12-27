@@ -19,6 +19,14 @@ const config: Config = {
         "2xl": "1400px",
       },
     },
+    typography: {
+      quoteless: {
+        css: {
+          "blockquote p:first-of-type::before": { content: "none" },
+          "blockquote p:first-of-type::after": { content: "none" },
+        },
+      },
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -83,6 +91,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 };
 export default config;

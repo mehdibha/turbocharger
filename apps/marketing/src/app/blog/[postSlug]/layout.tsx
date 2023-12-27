@@ -14,7 +14,7 @@ const PostLayout = (props: PostLayoutProps) => {
     <div className="container max-w-4xl">
       {children}
       <CallToAction
-        className="mb-24 mt-36"
+        className="mt-32"
         logo={false}
         headline={config.cta.headline}
         subheadline={config.cta.subheadline}

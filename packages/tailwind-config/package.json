@@ -8,6 +8,7 @@
   "types": "index.ts",
   "devDependencies": {
     "tailwindcss": "^3.2.4",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "@tailwindcss/typography": "^0.5.10"
   }
 }
