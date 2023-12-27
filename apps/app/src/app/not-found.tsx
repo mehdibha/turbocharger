@@ -7,9 +7,8 @@ export default function NotFound() {
       <p className="text-lg text-stone-500 dark:text-stone-400">
         This page does not exist, or you do not have permission to view it
       </p>
-      {/* TODO: if auth back to all sites, if not back to login */}
       <Button href="/" className="mt-4">
-        Back to All sites
+        Back to App
       </Button>
     </div>
   );
