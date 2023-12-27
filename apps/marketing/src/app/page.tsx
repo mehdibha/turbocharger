@@ -6,7 +6,7 @@ import { siteConfig } from "@/config";
 
 export default function HomePage() {
   return (
-    <div className="pt-28">
+    <div className="animate-in fade-in slide-in-from-top-6 pt-28 duration-500">
       <Hero
         headline={siteConfig.homePage.hero.headline}
         subheadline={siteConfig.homePage.hero.subheadline}
