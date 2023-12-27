@@ -59,7 +59,7 @@ export default async function PostPage(props: PostPageProps) {
             post.metadata.keywords.map((tag) => <Badge key={tag}>{tag}</Badge>)}
         </div>
       </div>
-      <article className="prose prose-quoteless prose-neutral dark:prose-invert mt-20 max-w-full">
+      <article className="prose prose-quoteless prose-neutral dark:prose-invert prose-lead:leading-none mt-20 max-w-full">
         {post.content && <MDX source={post.content} />}
       </article>
     </div>

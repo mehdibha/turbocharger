@@ -64,7 +64,11 @@ html {
 .prose pre code {
   @apply p-0;
   border: initial;
-  line-height: 1.5;
+  line-height: 1px !important;
+}
+
+.prose :where(pre):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  line-height: 14px !important;
 }
 
 .prose code span {
