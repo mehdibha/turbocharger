@@ -12,7 +12,7 @@ export const LogoutButton = (props: ButtonProps) => {
     <Button
       size="icon"
       onClick={() => {
-        signOut();
+        signOut({ callbackUrl: `${window.location.origin}/login` });
       }}
       className={cn("", className)}
       {...restProps}
