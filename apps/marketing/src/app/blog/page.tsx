@@ -12,7 +12,6 @@ export const metadata: Metadata = {
 
 export default async function BlogPage() {
   const posts = getAllPosts();
-  console.log(posts);
 
   return (
     <div className="container max-w-7xl pt-12">

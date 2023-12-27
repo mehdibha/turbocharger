@@ -1,36 +1,8 @@
-import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Badge } from "@turbocharger/ui";
 import { formatDate } from "@turbocharger/utils";
 import { MDX } from "@/components/mdx";
-import { getAllPosts, getPostBySlug } from "@/lib/posts";
-
-export async function generateMetadata({ params }: PostPageProps): Promise<Metadata> {
-  const post = getPostBySlug(params.postSlug);
-  if (!post) {
-    notFound();
-  }
-  return {
-    title: post.metadata.title,
-    description: post.metadata.summary,
-    keywords: post.metadata.keywords,
-    openGraph: {
-      title: post.metadata.title,
-      description: post.metadata.summary,
-      images: post.metadata.thumbnail ? [post.metadata.thumbnail] : undefined,
-    },
-  };
-}
-
-export async function generateStaticParams() {
-  const posts = getAllPosts();
-
-  return posts.map((post) => ({
-    params: {
-      postSlug: post.slug,
-    },
-  }));
-}
+import { getPostBySlug } from "@/lib/posts";
 
 interface PostPageProps {
   params: {

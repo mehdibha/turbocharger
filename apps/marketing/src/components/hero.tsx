@@ -24,7 +24,7 @@ export const Hero = (props: HeroProps) => {
   const { headline, subheadline, cta, demoVideo, companies } = props;
   return (
     <section className="px-6">
-      <h1 className="animate-in fade-in zoom-in font-display text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+      <h1 className="font-display text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
         {headline.split("\n").map((line, index) => (
           <span key={index}>
             {stringReplace(line, /\*\*(.*?)\*\*/g, (match, index) => (
