@@ -42,7 +42,7 @@
 ## About The Project
 
 <details open><summary>Screenshot</summary>
-<img src="https://turbocharger.cc/images/og-image.png" />
+<img src="https://turbocharger.cc/images/thumbnail.png" />
 </details>
 
 ### Features
